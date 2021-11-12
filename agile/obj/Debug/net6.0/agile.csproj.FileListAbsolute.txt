@@ -1,0 +1,16 @@
+C:\Users\erics\VSCode\CSharp\agile\bin\Debug\net6.0\agile.exe
+C:\Users\erics\VSCode\CSharp\agile\bin\Debug\net6.0\agile.deps.json
+C:\Users\erics\VSCode\CSharp\agile\bin\Debug\net6.0\agile.runtimeconfig.json
+C:\Users\erics\VSCode\CSharp\agile\bin\Debug\net6.0\agile.dll
+C:\Users\erics\VSCode\CSharp\agile\bin\Debug\net6.0\ref\agile.dll
+C:\Users\erics\VSCode\CSharp\agile\bin\Debug\net6.0\agile.pdb
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.GlobalUsings.g.cs
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.csproj.AssemblyReference.cache
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.AssemblyInfoInputs.cache
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.AssemblyInfo.cs
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.csproj.CoreCompileInputs.cache
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.dll
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\ref\agile.dll
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.pdb
+C:\Users\erics\VSCode\CSharp\agile\obj\Debug\net6.0\agile.genruntimeconfig.cache
