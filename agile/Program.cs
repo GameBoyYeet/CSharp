@@ -46,8 +46,8 @@ try
         int rawPercent = numCorrect / numTotal * 100;
         percentCorrect = rawPercent.ToString() + "%";
     }
-    var avgTime = times.Sum(x => Convert.ToInt32(x)) / times.Count;
-    Console.WriteLine("Results:\nCorrect: " + numCorrect + "\nTotal: " + numTotal + "\nPercent correct: " + percentCorrect + "\nAverage time/prompt: " + avgTime + "\nPress any key to exit...");
+    var avgTime = times.Sum(x => Convert.ToDouble(x)) / times.Count;
+    Console.WriteLine("Results:\nCorrect: " + numCorrect + "\nTotal: " + numTotal + "\nPercent correct: " + percentCorrect + "\nAverage time/prompt: " + avgTime + " sec" + "\nPress any key to exit...");
     _ = Console.ReadKey();
 }
 catch (Exception e)
