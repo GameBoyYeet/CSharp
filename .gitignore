@@ -1,4 +1,2 @@
-**/bin
-**/obj
-agile/bin/
-agile/obj/
+/bin
+/obj
