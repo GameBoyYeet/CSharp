@@ -1,18 +1,25 @@
-﻿Random random = new();
+﻿using System.Diagnostics;
+
+Random random = new();
+Stopwatch stopwatch = new();
 Console.Clear();
 Console.WriteLine("Welcome to Agile! This is a numeric typing test.\nType the digits printed. Press any key to start, and type 'stop' to stop.");
 _ = Console.ReadKey();
-
 try
 {
     Console.Clear();
     int numCorrect = 0;
     int numTotal = 0;
-    while(true)
-    {
+    List<double> times = new();
+    while (true)
+	{
         string prompt = random.Next(0, 10000).ToString("D4");
         Console.WriteLine(prompt);
+        stopwatch.Start();
         string input = Console.ReadLine();
+        stopwatch.Stop();
+        times.Add(stopwatch.Elapsed.TotalSeconds);
+        stopwatch.Reset();
         if (input == prompt)
         {
             numCorrect += 1;
@@ -39,7 +46,8 @@ try
         int rawPercent = numCorrect / numTotal * 100;
         percentCorrect = rawPercent.ToString() + "%";
     }
-    Console.WriteLine("Results:\nCorrect: " + numCorrect + "\nTotal: " + numTotal + "\nPercent correct: " + percentCorrect + "\nPress any key to exit...");
+    var avgTime = times.Sum(x => Convert.ToInt32(x)) / times.Count;
+    Console.WriteLine("Results:\nCorrect: " + numCorrect + "\nTotal: " + numTotal + "\nPercent correct: " + percentCorrect + "\nAverage time/prompt: " + avgTime + "\nPress any key to exit...");
     _ = Console.ReadKey();
 }
 catch (Exception e)
